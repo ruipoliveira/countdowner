@@ -48,7 +48,7 @@ public class Counter extends AppCompatActivity {
                         TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) - TimeUnit.MINUTES.toSeconds(
                                 TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished))));
 
-                int color = (int) ((100 * millisUntilFinished) / finalResult);
+                int color = (int) -((100 * millisUntilFinished) / finalResult)+100;
                 getWindow().getDecorView().setBackgroundColor(getRGBColor(color));
 
                 Log.d("COLOR", " value ->" + color);

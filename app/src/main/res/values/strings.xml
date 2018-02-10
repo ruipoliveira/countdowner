@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">countdowner</string>
+    <string name="app_name">Countdowner</string>
     <string name="title_home">About</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Settings</string>

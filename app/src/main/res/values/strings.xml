@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">countdowner</string>
-    <color name="green">#7FFF00</color>
-
-
+    <string name="title_home">About</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Settings</string>
+    <string name="title_activity_counter">Counter</string>
 </resources>

@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
     private int seconds_int, minutes_int;
 
-    /*
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
@@ -44,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
             return false;
         }
     };
-    */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
 
         textview = (TextView) findViewById(R.id.message);
 
-
         minutes.setMinValue(0);
         minutes.setMaxValue(59);
         seconds.setMinValue(0);
@@ -71,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             public void onValueChange(NumberPicker picker, int oldVal, int newVal) {
 
                 minutes_int = newVal;
-                textview.setText(String.format("%02d", minutes_int) + ":" + String.format("%02d", seconds_int));
+                textview.setText(String.format("%02d", minutes_int) + "m " + String.format("%02d", seconds_int) + "s");
             }
         });
 
@@ -80,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             public void onValueChange(NumberPicker picker, int oldVal, int newVal) {
 
                 seconds_int = newVal;
-                textview.setText(String.format("%02d", minutes_int) + ":" + String.format("%02d", seconds_int));
+                textview.setText(String.format("%02d", minutes_int) + "m " + String.format("%02d", seconds_int) + "s");
             }
         });
 
@@ -98,7 +95,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
     }
 
     public void sendMessage(View view) {
@@ -109,6 +105,4 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
-
-
 }

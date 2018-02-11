@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 import java.util.concurrent.TimeUnit;
 
-
 public class Counter extends AppCompatActivity {
 
     private static final String FORMAT = "%02d:%02d";
@@ -42,7 +41,7 @@ public class Counter extends AppCompatActivity {
         new CountDownTimer(finalResult, 1000) {
 
             public void onTick(long millisUntilFinished) {
-                mText.setText("" + String.format(FORMAT,
+                mText.setText(String.format(FORMAT,
                         TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished) - TimeUnit.HOURS.toMinutes(
                                 TimeUnit.MILLISECONDS.toHours(millisUntilFinished)),
                         TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) - TimeUnit.MINUTES.toSeconds(
@@ -61,12 +60,15 @@ public class Counter extends AppCompatActivity {
                 Intent intent = new Intent(Counter.this, MainActivity.class);
 
                 startActivity(intent);
-
             }
         }.start();
 
     }
 
+    /*
+    * Get color 0 -> 100
+    * red to green
+    * */
     private int getRGBColor(int n) {
         int R = (255 * n) / 100;
         int G = (255 * (100 - n)) / 100;

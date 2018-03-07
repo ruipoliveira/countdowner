@@ -19,12 +19,11 @@ Small presentation tool that displays a countdown watch and changes the backgrou
 
 * Start countdown
 
-![Screen 1](https://github.com/ruipoliveira/countdowner/blob/master/resources/screen3.png)
-
+![Screen 3](https://github.com/ruipoliveira/countdowner/blob/master/resources/screen3.png)
 
 * End countdown
 
-![Screen 1](https://github.com/ruipoliveira/countdowner/blob/master/resources/screen6.png)
+![Screen 6](https://github.com/ruipoliveira/countdowner/blob/master/resources/screen6.png)
 
 
 ## Contributing

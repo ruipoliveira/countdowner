@@ -26,6 +26,10 @@ Small presentation tool that displays a countdown watch and changes the backgrou
 ![Screen 6](https://github.com/ruipoliveira/countdowner/blob/master/resources/screen6.png)
 
 
+## Run 
+
+* [Download](https://github.com/ruipoliveira/countdowner/blob/master/resources/countdowner.apk) and install apk. 
+
 ## Contributing
 
 * Fork it!

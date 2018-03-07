@@ -28,7 +28,7 @@ Small presentation tool that displays a countdown watch and changes the backgrou
 
 ## Run 
 
-* [Download](https://github.com/ruipoliveira/countdowner/blob/master/resources/countdowner.apk) and install apk. 
+* [Download](https://github.com/ruipoliveira/countdowner/raw/master/resources/countdowner.apk) and install apk. 
 
 ## Contributing
 
